@@ -6,9 +6,10 @@
     z-index: 1;
     top: 0;
     left: 0;
-    overflow-x: hidden;
     background-color:white;
   margin-top: 140px;
+  
+  
 }
 .sidenav a{
 color: black;
@@ -19,11 +20,19 @@ border-color:black;
 border: 1px solid black;
 border-radius: 25px;
 
+
 }
+
 .sidenav a:hover {
     background-color: green;
     color:white;
+    width: 150px;
+    -ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
+
+
 
 
 #bk{
