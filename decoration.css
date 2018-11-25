@@ -1,0 +1,65 @@
+#p1{
+    font-size: 200%;
+    color: white;
+}
+body{
+    background-color: brown;
+    
+}
+#head{
+    font-size: 300%;
+    color: white;
+}
+#p2{
+    background: white;
+    color: brown;
+    font-size: 200%;
+   
+    
+}
+#bk{
+    background-color: white;
+}
+#tr{
+    background-color:rgba(165,42, 42, 0.6)
+}
+#p3{
+    font-size:175%;
+    color: brown;
+}
+#pm{
+    padding: 25px;
+    margin: 25px;
+}
+#p2,#p3{
+    text-transform: capitalize;
+}
+a.highlight:hover {
+    color: #ff0000;
+} 
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#left{
+    margin-left: 200px;
+    padding-left: 20px;
+}
